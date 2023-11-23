@@ -1,0 +1,122 @@
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+    text-decoration: none;
+    /* box-sizing: border-box; */
+    list-style: none;
+}
+/* onts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet"> */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: helvetica,sans-serif;
+    font-size: 80%;
+}
+/* navbar */
+nav {
+    padding: 4% 5%;
+    background-color: #E4F9F5;
+    display: flex;
+    text-align: center;
+}
+.navbar-logo {
+    width: 5%;
+    height: 5%;
+    padding: 0 20%;
+}
+ul {
+    display: flex;
+    padding: 0 10%;
+}
+a, .nav-item{
+color: #66BFBF;
+padding: 1% 10%;
+}
+/* top section  */
+.top {
+    background-color: #E4F9F5;
+    position: relative;
+    padding: 4% 1% 0;
+}
+span {
+    text-decoration: underline;
+}
+h1 {
+    /* font-family: arial, cursive; */
+color: #66BFBF;
+    margin: 0 auto ;
+    padding: 5% 0 0;
+}
+h2, .paragh {
+color: #66BFBF;
+}
+h3 {
+    color: #66BFBF;
+}
+.top-cloud {
+    image-resolution: 300px;
+    position: absolute;
+    left: 65%;
+    width: 9%;
+    height: 8%;
+    top: 10%;
+}
+.bottom-cloud  {
+    width: 9%;
+    height: 8%;
+    position: absolute;
+    left: 30%;
+} 
+.mountain{
+    width: 35%;
+    height: 35%;
+    margin: 5% 0 0;
+} 
+/* middle section  */
+.middle{
+    padding: 4% 8%;
+}
+.middle-img {
+width: 20%;
+height: 20%;
+}
+/* skills  */
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+.skill-row::after{
+    animation-duration: 2s;
+    animation-fill-mode: both;
+   animation-name: unset;
+}
+.image {
+    float: left;
+    padding: 0 30px 0 0;
+}
+.image-two{
+    float: right;
+    padding: 0 30px 0 0;
+}
+.btn{
+    font-family: monospace;
+    font-weight: 400;
+    background-color: #66BFBF;
+    text-decoration: none;
+    color: white;
+    padding: 1.5% 4%;
+    border-radius: 4%;
+}
+.btn:hover {
+    padding: 1.5% 5%;
+    transition: 0.5s;
+    border-bottom: solid #66BFBF;
+    color: #66BFBF;
+    background-color: transparent;
+}
+/* .decription{
+    clear: both;
+} */
+
