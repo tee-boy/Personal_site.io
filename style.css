@@ -52,6 +52,7 @@ color: #66BFBF;
 }
 h3 {
     color: #66BFBF;
+
 }
 .top-cloud {
     image-resolution: 300px;
@@ -71,7 +72,7 @@ h3 {
     width: 35%;
     height: 35%;
     margin: 5% 0 0;
-} 
+}  
 /* middle section  */
 .middle{
     padding: 4% 8%;
@@ -106,6 +107,7 @@ height: 20%;
     background-color: #66BFBF;
     text-decoration: none;
     color: white;
+    margin: 6% 0;
     padding: 1.5% 4%;
     border-radius: 4%;
 }
